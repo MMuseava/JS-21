@@ -3,3 +3,105 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+  
+   background-image: url(https://socialistsanddemocrats.eu/sites/default/files/styles/header_background/public/2019-06/gender%20equality%20%281%29.jpg?itok=FvkFwxR0);
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+
+    text-align: center;
+    margin: 50px;
+    height: 100vh;
+    margin-top: 10px;
+    color: white;
+    font-size: 45px;
+    font-style: italic;
+    padding-left: 15%;
+
+    
+}
+
+#nameInput {
+    padding: 18px;
+ 
+    font-size: 20px;
+    width: 20%;
+    border-radius: 30px;
+    text-align: center;
+  font-family: cursive;
+  font-size: 25px;
+ /* background: radial-gradient(ellipse at 50% 50%, rgba(42, 71, 143, 1) 21%, rgba(4, 172, 227, 0.95) 100%); */
+ color: white;
+ border: 1px solid white;
+   
+}
+
+#reveal {
+    padding: 18px ;
+    border-radius: 20px;
+    width: 10%;
+   margin-top: 30px;
+   font-family: cursive;
+   font-size: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    
+   
+}
+#reveal:hover {
+    background-color:#36b3b3;
+}
+
+#name {
+   
+    margin-top: 20px;
+    font-size: 45px;
+    color:  rgba(42, 71, 143, 1);
+    
+}
+
+img {
+    margin-top: 40px;
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 46px;
+     color:  rgba(42, 71, 143, 1);
+}
+
+
+@media(max-width:500px){
+    body{
+
+       background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+      
+        font-size: 30px;
+     
+    }
+
+    #nameInput {
+     padding: 10px;
+     width: 45%;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 15px;
+   background: radial-gradient(circle, rgba(222,123,151,1) 2%, rgba(218,137,210,1) 73%);
+    }
+    #reveal{
+        padding: 10px;
+        width: 45%;
+        font-size: 10px;
+    }
+    #reveal:hover {
+    background-color:#dca1f4;
+}
+}
